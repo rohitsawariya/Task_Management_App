@@ -1,0 +1,33 @@
+.set {
+    font-size: 2.5rem;
+    font-family: serif;
+    position: relative;
+    background: rgba(8, 105, 157, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+    backdrop-filter: blur(15px);
+    
+}
+
+/* .set {
+    font-size: 2.5rem;
+    font-family: serif;
+    position: relative;
+    border-radius: 15px;
+    padding: 10px;
+    overflow: hidden;
+    margin-left: 15px;
+}
+
+.set::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('https://images.pexels.com/photos/568948/pexels-photo-568948.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center/cover;
+    filter: blur(5px);
+    z-index: -1;
+    border-radius: 10px;
+} */
