@@ -9,7 +9,7 @@ import WelcomeMsg from './Components/WelcomeMsg'
 import Footer from './Components/Footer'
 
 function App() {
-  const [todoList, setTodoList] = useState([{ name: "Buy Pen", date: "2025-02-04" }]);
+  const [todoList, setTodoList] = useState([]);
   const addNewItems = (itemName, itemDueDate) => {
     setTodoList((currentVal) => [{ name: itemName, date: itemDueDate }, ...currentVal,]
     );
