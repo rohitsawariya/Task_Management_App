@@ -25,7 +25,7 @@ function Form() {
     return (
         <form onSubmit={handleAddButton} className={`   bg-red ${styles.set} flex p-5 rounded-lg ml-2 shadow-lg w-full`} style={{ padding: "0px 0px 0px 0px" }}>
 
-            <label className={`${styles.closenes} lock text-white font-semibold mb-2`}>Task: </label>
+            <label className={`${styles.closenes} lock text-white font-semibold mb-2`}>TaskName: </label>
             <input
                 ref={inputName}
                 type="text"
