@@ -42,7 +42,6 @@ function Form() {
 
             <button
                 type="submit"
-                placeholder="Enter your DueDate"
                 className={`${styles.closenes} w-1/4 m-2 bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition duration-300`}
             >
                 Submit
