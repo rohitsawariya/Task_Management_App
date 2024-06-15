@@ -7,7 +7,7 @@ function Footer() {
 
     <footer className="bg-gray-800 text-white p-4">
         <div className="container mx-auto text-center">
-            <p className="text-sm">&copy; 2024 Your Company. All rights reserved.</p>
+            <p className="text-sm">&copy; 2024. All rights reserved.</p>
             <ul className="flex justify-center mt-2">
                 <li><a href="#" className="hover:text-gray-300 px-2">Privacy Policy</a></li>
                 <li><a href="#" className="hover:text-gray-300 px-2">Terms of Service</a></li>
